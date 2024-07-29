@@ -103,7 +103,7 @@ p {
         width: 20vw;
         position: relative;
         left: -50%;
-        top: -33em;
+        top: -12em;
     }
 
     h2 {
@@ -112,7 +112,7 @@ p {
         position: relative;
         text-align: left;
         right: 30%;
-        top: -43em;
+        top: -21em;
         font-size: 15px;
         font-weight: 500;
     }
@@ -120,43 +120,45 @@ p {
     span {
         font-size: 50px;
         align-items: center;
+        top: 0em;
+        position: relative;
     }
 
     p {
         width: -10vw;
         height: 10vh;
         position: relative;
-        text-align: left;
+      align-items: center;
         right: 30%;
-        top: -43em;
+        top: -21em;
         font-size: 15px;
         font-weight: 500;
     }
 
     button {
-        top: -44em;
+        top: -18em;
         position: relative;
-        right: 35%;
+        align-items: center;
     }
 
     .círculo {
-        width: 100vw;
+        width: 150vw;
         height: 70vh;
-        left: 35%;
-        top: 22em;
+        left: -59%;
+        top: 42em;
         position: relative;
     }
 
     .Starbucks {
         width: 50vw;
-        top: -15em;
+        top: 5em;
         right: 60%;
         position: relative;
     }
 
     .menu {
-        top: -42em;
-        right: 30%;
+        top: -19em;
+        align-items: center;
         position: relative;
         width: auto;
         height: auto;
