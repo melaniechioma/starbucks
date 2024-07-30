@@ -35,7 +35,7 @@ body {
 }
 
 button {
-    width: 200px;
+    width: 250px;
     background: #017143;
     /* cor de fundo */
     color: #ffff;
@@ -46,6 +46,7 @@ button {
     border-radius: 20px;
     cursor: pointer;
     transition: 1s;
+    font-size: 25px;
 }
 
 button:hover {
@@ -64,8 +65,8 @@ span {
 }
 
 p {
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 22px;
+    margin-top: 25px;
     margin-bottom: 30px;
 }
 
@@ -100,64 +101,90 @@ p {
 
 @media(max-width: 1100px) {
     .logo {
-        width: 20vw;
+        width: 65vw;
         position: relative;
-        left: -50%;
-        top: -12em;
+        position: fixed;
+        right: 20em;
+        left: 1em;
+        top: 1em;
+        bottom: 25em;
+        
     }
-
     h2 {
-        width: -10vw;
+        width: 90vw;
         height: 10vh;
         position: relative;
-        text-align: left;
-        right: 30%;
-        top: -21em;
-        font-size: 15px;
+        position: fixed;
+        left: 11em;
+        right: 0em;
+       bottom: 19em;
+       top: 2em;
+        font-size: 30px;
         font-weight: 500;
     }
 
     span {
-        font-size: 50px;
-        align-items: center;
+        font-size: 65px;
+        position: fixed;
         top: 0em;
+        bottom: 19em;
+        right: 12em;
+        left: 0em;
         position: relative;
     }
 
     p {
-        width: -10vw;
-        height: 10vh;
+        width: 155vw;
+        height: 120vh;
         position: relative;
-      align-items: center;
-        right: 30%;
-        top: -21em;
-        font-size: 15px;
-        font-weight: 500;
+        position: fixed;
+        left: 5em;
+        right: 0em;
+        top: 15em;
+        bottom: 35em;
+        font-size: 24px;
     }
 
     button {
-        top: -18em;
+        font-size: 22px;
+        width: 66vw;
+        height: 11vh;
         position: relative;
-        align-items: center;
+        position: fixed;
+        left: 10em;
+        right: 0em;
+        top: 29em;
+        bottom: 2em;
     }
 
     .círculo {
-        width: 150vw;
-        height: 70vh;
-        left: -59%;
-        top: 42em;
+        width: 95vw;
+        height: 88vh;
+        position: fixed;
+        left: 18em;
+        right: 0em;
+        top: 59em;
+        bottom: 15em;
         position: relative;
+       
     }
 
     .Starbucks {
-        width: 50vw;
-        top: 5em;
-        right: 60%;
+        width: 85vw;
+        position: fixed;
+        bottom: 19em;
+        top: 14em;
+        right: 0em;
+        left: 20em;
         position: relative;
     }
 
     .menu {
-        top: -19em;
+        position: fixed;
+        bottom: 9em;
+        top: -27em;
+        left: 10em;
+        right: 12em;
         align-items: center;
         position: relative;
         width: auto;
