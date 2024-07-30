@@ -138,7 +138,7 @@ p {
         height: 120vh;
         position: relative;
         position: fixed;
-        left: 5em;
+        left: 4em;
         right: 0em;
         top: 15em;
         bottom: 35em;
@@ -158,12 +158,12 @@ p {
     }
 
     .círculo {
-        width: 86vw;
-        height: 86vh;
+        width: 88vw;
+        height: 87vh;
         position: fixed;
         left: 10em;
         right: 0em;
-        top: 63em;
+        top: 66em;
         bottom: 15em;
         position: relative;
        
