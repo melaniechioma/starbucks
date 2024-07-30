@@ -158,12 +158,12 @@ p {
     }
 
     .círculo {
-        width: 70vw;
+        width: 80vw;
         height: 85vh;
         position: fixed;
         left: 10em;
         right: 0em;
-        top: 55em;
+        top: 60em;
         bottom: 15em;
         position: relative;
        
@@ -182,7 +182,7 @@ p {
     .menu {
         position: fixed;
         bottom: 9em;
-        top: -30em;
+        top: -40em;
         left: 10em;
         right: 12em;
         align-items: center;
